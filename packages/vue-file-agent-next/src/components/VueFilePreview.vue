@@ -128,6 +128,9 @@ import utils from '../lib/utils'
 
 export default /* #__PURE__ */ defineComponent({
   name: 'VueFilePreview',
+  compatConfig: {
+    MODE: 3,
+  },
   components: {
     VueFileIcon,
   },
